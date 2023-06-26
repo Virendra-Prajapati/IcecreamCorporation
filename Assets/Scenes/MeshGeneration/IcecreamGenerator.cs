@@ -52,6 +52,8 @@ public class IcecreamGenerator : MonoBehaviour
             if(meshController == null)
             {
                 GenerateNewMesh();
+                if(elapsedTime > 0)
+                    elapsedTime -= Time.deltaTime * speed;
             }
             elapsedTime += Time.deltaTime * speed;
             GenerateLivePosition();
@@ -64,7 +66,6 @@ public class IcecreamGenerator : MonoBehaviour
             {
                 meshController.CallOffUpdate();
                 meshController = null;
-                elapsedTime -= Time.deltaTime * speed;
             }
             if(IsPositionFilled() && !resetButton.activeInHierarchy)
                 resetButton.SetActive(true);
@@ -157,5 +158,5 @@ public enum FlavourType
 {
     Strawberry = 0, 
     Choclate = 1,
-    Vanilla = 2
+    Pineapple = 2
 }
