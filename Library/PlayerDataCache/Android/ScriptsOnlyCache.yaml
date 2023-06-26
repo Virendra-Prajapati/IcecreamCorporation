@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonScript
-    - Cream
     - IcecreamGenerator
     - MachineHandle
     DOTween.dll:
@@ -74,7 +73,7 @@ ScriptsOnlyBuild:
     fullTypeName: IcecreamGenerator
     methodName: RaiseOnReset
   sceneClasses:
-    Assets/Scenes/MainScene.unity:
+    Assets/Scenes/MeshGeneration/MeshGeneration.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -95,8 +94,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -106,41 +103,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2630}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3518}
+      Script: {instanceID: 3542}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4002}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 4548}
     - Class: 114
-      Script: {instanceID: 5288}
+      Script: {instanceID: 5224}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6096}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6440}
     - Class: 114
-      Script: {instanceID: 24130}
+      Script: {instanceID: 7486}
     - Class: 114
-      Script: {instanceID: 25562}
-    - Class: 114
-      Script: {instanceID: 28026}
+      Script: {instanceID: 7570}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,12 +159,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 14285c3bd5db9ec1880c467fd290624a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathCreation.Examples
-    className: PathSpawner
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -490,6 +479,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 82f519485f4a4207bae74bd70e256594
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonScript
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -652,12 +647,6 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: b233df5c6f9cea11b87e4e515556b495
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathCreation.Examples
-    className: GeneratePathExample
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -730,12 +719,6 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 0eaba8fcbfa6859be3e02bfe60166ccf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathCreation.Examples
-    className: PathPlacer
-  - hash:
-      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -764,12 +747,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: aa2e8f61d9a72b5cf8353f8264828937
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: IcecreamGenerator
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -898,16 +875,22 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 2023515a447b9089d205e8fe2ea2e7ac
+      Hash: d2f509e37755753f3073b888a8f8b8ba
     assemblyName: Assembly-CSharp.dll
-    namespaceName: PathCreation.Examples
-    className: PathFollower
+    namespaceName: 
+    className: IcecreamGenerator
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 61d21344c764b2afabe73c93907423b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MachineHandle
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -926,6 +909,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -970,12 +959,6 @@ ScriptsOnlyBuild:
     className: UnityOnToggleValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bfd0fa381ea0fbb32773b78e2b1e2c06
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PathCreation.Examples
-    className: RoadMeshCreator
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -992,25 +975,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d1809e5245275d1b140e070cfc2610c4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Cream
-  - hash:
-      serializedVersion: 2
-      Hash: 82f519485f4a4207bae74bd70e256594
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonScript
-  - hash:
-      serializedVersion: 2
-      Hash: b0fe6d591825f3d5f95265e8d7479107
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MachineHandle
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MainScene.unity
+  - Assets/Scenes/MeshGeneration/MeshGeneration.unity
   playerPath: C:/Users/viren/OneDrive/Desktop/IcecreamCorporation.apk

@@ -311,16 +311,12 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs"
-"Assets/PathCreator/Examples/Scripts/PathFollower.cs"
-"Assets/PathCreator/Examples/Scripts/PathPlacer.cs"
-"Assets/PathCreator/Examples/Scripts/PathSceneTool.cs"
-"Assets/PathCreator/Examples/Scripts/PathSpawner.cs"
-"Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs"
-"Assets/Scenes/ButtonScript.cs"
-"Assets/Scenes/Cream.cs"
-"Assets/Scenes/IcecreamGenerator.cs"
-"Assets/Scenes/MachineHandle.cs"
+"Assets/Scenes/MeshGeneration/ButtonScript.cs"
+"Assets/Scenes/MeshGeneration/CircleMesh.cs"
+"Assets/Scenes/MeshGeneration/IcecreamGenerator.cs"
+"Assets/Scenes/MeshGeneration/LivePosition.cs"
+"Assets/Scenes/MeshGeneration/MachineHandle.cs"
+"Assets/Scenes/MeshGeneration/MeshController.cs"
 -langversion:9.0
 
 /deterministic

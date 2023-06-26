@@ -56,10 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\IcecreamGenerator.cs" />
-    <Compile Include="Assets\Scenes\Cream.cs" />
-    <Compile Include="Assets\Scenes\ButtonScript.cs" />
-    <Compile Include="Assets\Scenes\MachineHandle.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\ButtonScript.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\CircleMesh.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\LivePosition.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\IcecreamGenerator.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\MachineHandle.cs" />
+    <Compile Include="Assets\Scenes\MeshGeneration\MeshController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
